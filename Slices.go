@@ -47,4 +47,5 @@ func main() {
 	fmt.Println(i)
 	//but this changes the inside a slice because i works as a pointer
 	fmt.Println(a)
+	//so it is better to copy elements in the slice using a loop and change it afterwards so that it doesn't effect the main slice
 }
